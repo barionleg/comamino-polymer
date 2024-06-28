@@ -1,0 +1,66 @@
+BODY {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+	background-color: #E2F4A4;
+	border : Black;
+}
+
+H1 {
+	font-size : xx-large;
+}
+
+H2 {
+	font-size: x-large;
+}
+
+H3 {
+	font-size : larger;
+}
+
+H4 {
+	font-size : medium;
+}
+
+H5 {
+	font-size : smaller;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color : White;
+}
+
+img {
+	max-width: 100% ;
+	width: auto ;
+	height: auto ;
+}
+
+
+table, th, td
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+        padding: 10px ;
+}
+
+p.center {
+    text-align: center;
+}
+
+div {
+    overflow-x: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+div.fullWidth {
+  width: 100%;
+}
